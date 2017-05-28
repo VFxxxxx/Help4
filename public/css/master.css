@@ -1,0 +1,84 @@
+body {
+  background-color: #f9f9f9;
+}
+
+header {
+  font-size: 0;
+  background-image: url(../images/logo.jpg);
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.25em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 40px 0;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+/**
+*картинки , которые на сайте вставлены
+**/
+.head_img {
+  width: 100%;
+  height: 300px;
+}
+
+/**
+*менюшка
+**/
+.menu {
+    width: 100%;
+    background-color: #b50f16;
+/*    text-align: center;
+
+*/
+}
+
+.menu > nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.menu a {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1em;
+    line-height: 17px;
+    padding: 15px 0;
+    display: inline-block;
+}
+
+.anchor {
+  display: block;
+  visibility: hidden;
+}
+
+.scrolled {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+@media screen and (max-width:470px) {
+  .menu > nav > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .head_img {
+    width: 100%;
+    height: 300px;
+  }
+}

@@ -1,0 +1,9 @@
+input[type="checkbox"] {
+    margin: -3px 0 0;
+    position: inherit;
+    float: left;
+}
+
+.container {
+	margin-top: 30px;
+}
